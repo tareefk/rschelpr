@@ -1,0 +1,15 @@
+Package: rschelpr
+Title: Package that Simplifies Configuration Settings for R Markdown Docs in Connect.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Tareef",
+           family = "Kawaf",
+           role = c("aut", "cre"),
+           email = "tareefk@gmail.com")
+Description: Wraps some of the more confusing elements of the rmarkdown documentation in a easier to use functions. It also makes it easier to explore what can be configured on emails to be sent by RStudio Connect.
+License: Apache 2.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rmarkdown
+RoxygenNote: 6.1.1
