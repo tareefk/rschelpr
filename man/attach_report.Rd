@@ -13,6 +13,6 @@ attach_report(include_report = TRUE)
 Set whether the output of the rendered R Markdown report should be attached to the email sent
 }
 \examples{
-attach_report(TRUE) # Default is true Will return the output of the report
+attach_report(TRUE) # Default is true will return the output of the report
 attach_report(FALSE) # Will not include the output of the report
 }

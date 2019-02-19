@@ -44,19 +44,22 @@ set_email_metadata <- function(email_subject = NULL,
 #' Returns the URL for this specific rendered version of the report.
 #' @export
 get_report_rendering_url <- function() {
-  Sys.getenv("RSC_REPORT_RENDERING_URL")
+  Sys.getenv("RSC_REPORT_RENDERING_URL",
+             "https://www.rstudio.com/")
 }
 
 #' Returns the URL for the latest version of the report
 #' @export
 get_report_url <- function() {
-  Sys.getenv("RSC_REPORT_URL")
+  Sys.getenv("RSC_REPORT_URL",
+             "https://www.rstudio.com/products/connect/")
 }
 
 #' Returns the report name
 #' @export
 get_report_name <- function() {
-  Sys.getenv("RSC_REPORT_NAME")
+  Sys.getenv("RSC_REPORT_NAME",
+             "Default Report Name")
 }
 
 
