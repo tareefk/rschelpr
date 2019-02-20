@@ -64,7 +64,7 @@ get_report_name <- function() {
 
 
 #' Set the output files, and/or the email attachments created by this R Markdown report
-#'
+#' Per Aron's comments, output_files should really be broken out into its' own call since it is really only relevant for files that you want to make available for download directly from Connect.
 #' @param output_files list of file paths of content that was created by the report
 #' @param email_attachments list of file paths to the attachments created by the report
 #' @export
